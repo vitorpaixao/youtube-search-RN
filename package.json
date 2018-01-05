@@ -9,5 +9,15 @@
   "name": "youtube-search",
   "version": "0.0.0",
   "description": "Hello Expo!",
-  "author": null
+  "author": null,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "onandroid": "node node_modules/react-scripts/scripts/App.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  }
 }
